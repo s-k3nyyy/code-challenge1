@@ -1,0 +1,33 @@
+.list-container {
+    margin-top: 20px;
+}
+
+.person-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fffafa;
+}
+
+.person-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person-info span {
+    margin-right: 10px;
+}
+
+.person-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #16e454;
+    color: #fff;
+}
+
+.person-buttons button:hover {
+    background-color: #ec1717;
+}
