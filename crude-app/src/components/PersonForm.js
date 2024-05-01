@@ -81,7 +81,7 @@ class PersonForm extends Component {
           placeholder="Fee Balance"
           onChange={this.handleChange}
         />
-        <button type="submit">Add Person</button>
+        <button  className='add' type="submit">Add Person</button>
       </form>
     );
   }
